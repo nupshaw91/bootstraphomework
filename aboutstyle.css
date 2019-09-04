@@ -6,6 +6,25 @@ html,body {
     height: 100%;
     background-repeat: repeat;
 }
+
+/* Navbar */
+.head{
+    position: relative;
+    left: 260px;
+    top: 10px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin: 2px 2px 2px 2px;
+    padding: 5px 5px;
+    border-bottom: 2px solid #dddddd;
+}
+
+
+.nav{
+    position: absolute;
+    right: 200px;
+}
+
 /* Container */
 
 .container {
@@ -17,6 +36,7 @@ html,body {
     padding-bottom: 50px;
 }
 
+
 .main {
     overflow: auto;
     
@@ -24,7 +44,7 @@ html,body {
     margin-right: auto;
     background-color: #ffffff;
     width: 960px;
-    height: 550px;
+    height: 860px;
 }
 .box1 {
     display: block;
@@ -44,6 +64,7 @@ padding-top: 5px;
 }
 
 p{
+    float: right;
 text-align: left;
 padding-top: 10px;
 letter-spacing: 2px;

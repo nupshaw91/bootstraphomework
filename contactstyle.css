@@ -6,6 +6,24 @@ html,body {
     height: 100%;
     background-repeat: repeat;
 }
+/* Header */
+
+.head{
+    position: relative;
+    left: 260px;
+    top: 10px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin: 2px 2px 2px 2px;
+    padding: 5px 5px;
+    border-bottom: 2px solid #dddddd;
+}
+
+.nav{
+    position: absolute;
+    right: 200px;
+}
+/* container */
 .container {
     min-height: 100%;
     padding: 5%;
